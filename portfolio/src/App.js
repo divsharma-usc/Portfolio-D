@@ -12,7 +12,7 @@ function App() {
           </div>
           <div className="Biography">
             <div>
-              Divyansh
+              Divyansh is a graduate in Computer Science and Engineering xs
             </div>
           </div>
         </div>
