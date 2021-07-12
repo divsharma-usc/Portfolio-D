@@ -1,9 +1,16 @@
 import logo from './logo.svg';
+import hcbgImage from "./wallpaper.jpg";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <div className="Header">
+        <li>Home</li>
+        <li>Education</li>
+        <li>Projects</li>
+        <li>Skills</li>
+      </div>
       <div className="WelcomeSection">
         <div className="Introduction">
           <div className="ProfilePicture">
@@ -16,7 +23,6 @@ function App() {
             </div>
           </div>
         </div>
-        <img src="hero (1).svg"></img>
       </div>
     </div>
   );
