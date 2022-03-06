@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import hcbgImage from "./wallpaper.jpg";
 import './App.css';
 
 function App() {
