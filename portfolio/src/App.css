@@ -21,3 +21,41 @@
     transform: rotate(360deg);
   }
 }
+
+.header{
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0,0,0,.125);
+
+  height: 53px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
+  color: #555;
+}
+
+.mainSection{
+  color: #fff;
+  background: #a51a1a;
+  height: 250px;
+}
+
+#leftHeaderBox{
+  margin-left: 10%;
+  font-weight: 600;
+}
+
+#rightHeaderBox{
+  margin-right: 10%;
+  font-weight: 400;
+  font-size: small;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+#rightHeaderBox a{
+  margin-left: 15px;
+  cursor: pointer;
+}
