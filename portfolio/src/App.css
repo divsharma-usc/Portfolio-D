@@ -36,15 +36,9 @@
   color: #555;
 }
 
-.mainSection{
-  color: #fff;
-  background: #a51a1a;
-  height: 250px;
-}
-
 #leftHeaderBox{
   margin-left: 10%;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 #rightHeaderBox{
@@ -58,4 +52,64 @@
 #rightHeaderBox a{
   margin-left: 15px;
   cursor: pointer;
+}
+
+#profileImage img{
+  width: 150px;
+  height: 150px;
+}
+
+#profileImage{
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.mainSection{
+  color: #fff;
+  background: #a51a1a;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.midSection{
+  width: 60%;
+  display: flex;
+}
+
+#mainIntro{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 25px;
+}
+
+#mainIntro h3{
+  font: 16px/1.6 Roboto,Helvetica,sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+#mainIntro h4{
+  font: 14px/1.6 Roboto,Helvetica,sans-serif;
+  font-size: 1.0em;
+  font-weight: 350;
+  width: 100%;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+#mainIntro img{
+  height: 15px;
+  width: 15px;
 }
