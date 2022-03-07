@@ -113,3 +113,12 @@
   height: 15px;
   width: 15px;
 }
+
+.middleAlign{
+  width: 60%;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
