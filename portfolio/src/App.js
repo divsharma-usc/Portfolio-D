@@ -1,9 +1,5 @@
 import './App.css';
 import profileImage from './divImage.png';
-import emailImage from './email.png';
-import linkdIn from './linkdin.png';
-import github from './github.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function App() {
   return (
@@ -31,9 +27,8 @@ function App() {
             <h3>Hi, I'm Divyansh,</h3>
             <h4>a software developer specalized in back-end development, blockchain technologies and digital assets.</h4>
             <div>
-              <a><img src={emailImage}/></a>
-              <a><img src={linkdIn}/></a>
-              <a><img src={github}/></a>
+              <a><i class="fab-brands fa-linkedin"></i></a>
+              <a><i class="fa fa-address-book" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>
