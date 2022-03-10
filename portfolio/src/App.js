@@ -39,7 +39,7 @@ function App() {
               <h3>About Me</h3>
               <p>
                 Keeping up with my passion for technology and innovation by developing Blockchain, Digital Assets and Machine Learning solutions to real business use cases. 
-                2+ years of Extensive experience in designing and developing solutions using Cloud(GCP,AWS) and technologies like Tokenisation, Corda, HyperLedger, Fabric, Ethereum, Web Apps, 
+                2+ years of Extensive experience in designing and developing solutions using Cloud(GCP, AWS) and technologies like Tokenisation, Corda, HyperLedger, Fabric, Ethereum, Web Apps, 
                 API Infrastructure using Python, Java and Kotlin. Excellent Communication and networking skills
               </p>
         </div>
